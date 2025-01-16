@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS speech_to_text (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    file_name TEXT NOT NULL,
+    text TEXT NOT NULL
+);
